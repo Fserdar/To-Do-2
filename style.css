@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu Mono", monospace !important;
+}
+
+p {
+  font-weight: 700;
+  color: #de6590 !important;
+}
+
+.btn {
+  background-color: #de6590 !important;
+}
+
+input {
+  color: #de6590 !important;
+  border: solid 1px #de6590 !important;
+}
+
+button {
+  color: aliceblue !important;
+  font-weight: 900 !important;
+}
+
+.contain {
+  margin-left: 5rem !important;
+  margin: 5rem !important ;
+}
+::placeholder {
+  color: #de6590 !important;
+  opacity: 1 !important; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #de6590 !important;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #de6590 !important;
+}
