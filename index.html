@@ -32,28 +32,45 @@
       TO-DO LIST
     </h1>
 
-    <div class="input-group w-75 m-auto">
-      <input type="text" class="form-control" placeholder="ADD TODO HERE..." />
-      <button class="btn bg-gradient w-25" type="button" id="button-addon2">
+    <div id="div-1" class="input-group w-75 m-auto">
+      <input
+        id="deger"
+        style="text-transform: uppercase"
+        type="text"
+        class="form-control"
+        placeholder="ADD TODO HERE..."
+      />
+      <button
+        onclick="degerYakala()"
+        class="btn bg-gradient w-25"
+        type="button"
+        id="button-addon2"
+      >
         +
       </button>
     </div>
 
     <div class="contain">
-      <div>
+      <div id="div1">
         <h3>YOUR TODOS:</h3>
       </div>
-      <div>
-        <h2>-</h2>
+      <div id="div2">
+        <h2>
+          <span id="sonuc" style="text-transform: uppercase"
+            >ALL CAUGHT UP !</span
+          >
+        </h2>
       </div>
-      <div>
+      <div id="div3">
         <p class="">
-          .....................................................................................................................................
+          ..............................................................................................................................................................................................
         </p>
       </div>
-      <div>
-        <h2>< F.SERDAR KOSEE ></h2>
+      <div id="div4">
+        <h2>< F.SERDAR KOSE /></h2>
       </div>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>

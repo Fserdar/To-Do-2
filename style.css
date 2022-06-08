@@ -9,12 +9,17 @@ p {
   color: #de6590 !important;
 }
 
+h1 {
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
 .btn {
   background-color: #de6590 !important;
 }
 
 input {
-  color: #de6590 !important;
+  /* color: #de6590 !important; */
   border: solid 1px #de6590 !important;
 }
 
@@ -24,8 +29,8 @@ button {
 }
 
 .contain {
-  margin-left: 5rem !important;
-  margin: 5rem !important ;
+  margin-left: 6rem !important;
+  /* margin: 5rem !important ; */
 }
 ::placeholder {
   color: #de6590 !important;
@@ -38,4 +43,21 @@ button {
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #de6590 !important;
+}
+
+#div1 {
+  margin: 6rem 0rem !important;
+}
+#div2 {
+  margin: 8rem 0rem !important;
+}
+#div3 {
+  margin: 8rem 0rem !important;
+}
+#div4 {
+  margin-bottom: 0rem !important;
+}
+
+#div-1 {
+  width: 75% !important;
 }
